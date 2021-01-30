@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+#header_carousel {
+    height: 67vh;
+}
+
+#header_carousel img {
+    height: 75%;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 75vh;
+}
+
+#shop-by-category-container {
+    width: 80%;
+    height: 100vh;
+}
+
+#products {
+    height: 180vh;
+    width: 100%;
+    ;
+}
+
+.card-body {
+    height: 20%;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: #f8f9fa;
+}
+
+.product-caption h4 {
+    font-size: 1rem;
+}
+
+.single_product {
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#features-container {
+    background-image: linear-gradient(rgb(214, 202, 224), rgb(180, 214, 223));
+}
+
+.features-icons {
+    font-size: 4rem;
+}
+
+.features-box {
+    border: 1px solid#bd8ce6;
+    box-shadow: 11px 13px 20px -6px #5a4869;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+#footer_section li {
+    list-style: none;
+    text-decoration: none;
+}
+
+#products {
+    background-color: #f8f9fa;
+}
+
+#product_detail {
+    background-color: rgb(248, 249, 250);
+}
+
+#footer_section {
+    background-color: whitesmoke;
+}
+
+#cart {
+    background-color: rgb(248, 249, 250);
+}
+
+#Checkout {
+    background-color: rgb(248, 249, 250);
+}
+
+.bg_checkout_1 {
+    background-image: linear-gradient(rgb(200, 255, 128), rgb(140, 223, 188));
+}
+
+/* #about{
+    background-image:linear-gradient(rgb(128, 255, 196), rgb(140, 223, 188));
+} */
+.about-container{
+    background-image:linear-gradient(rgb(128, 255, 196), rgb(140, 223, 188));
+}
+.testimonial-about{
+    background-image:linear-gradient(rgb(243, 243, 243), rgb(233, 233, 233));
+}
+.about-icons{
+    font-size:3rem;
+}
+#about .border-success{
+    background-image:linear-gradient(rgb(105, 248, 205), rgb(132, 250, 171));
+}
+#contact{
+    background-color: rgb(248, 249, 250);
+}
+#form{
+    background-image:linear-gradient( rgb(132, 236, 250), rgb(132, 140, 250));
+    border-radius:10px;
+    box-shadow: 11px 13px 20px -6px #4f9186;
+}
+#contact .shadow{
+    box-shadow: 11px 13px 20px -6px #6d6d6d;
+}
